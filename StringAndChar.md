@@ -347,6 +347,7 @@ Hexxo
 String s = "I love Java";
 
 System.out.println(s.replace("Java", "Python"));
+System.out.println(s.replaceAll("^[A-Z]", "*"));
 ```
 
 ### Output
@@ -367,6 +368,7 @@ String s = "Java,Python,C++";
 String[] arr = s.split(",");
 Sting[] arr = s.split("[?/*.,:]") // remove the all the contents in the string which contains the content in the []
 String[] arr = s.split("\\s"); // removes the consecutive empty spaces
+
 ```
 
 ### Traversal
