@@ -365,6 +365,8 @@ Splits a string into an array.
 String s = "Java,Python,C++";
 
 String[] arr = s.split(",");
+Sting[] arr = s.split("[?/*.,:]") // remove the all the contents in the string which contains the content in the []
+String[] arr = s.split("\\s"); // removes the consecutive empty spaces
 ```
 
 ### Traversal
