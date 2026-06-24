@@ -540,6 +540,15 @@ String s = new String(arr);
 
 ---
 
+## StartsWith
+
+```java
+String arr = monkey
+System.out.println(arr.startsWith("Monkey")); // prints true
+```
+
+---
+
 # 🏆 Interview Rule
 
 Master these methods:
