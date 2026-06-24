@@ -450,6 +450,38 @@ for(char ch : s.toCharArray()) {
 
 ---
 
+# `putIfAbsent()`
+ 
+Insert only if key doesn't exist.
+ 
+```java
+map.putIfAbsent("apple", 20);
+```
+ 
+### Result
+ 
+If key **exists** → value remains unchanged:
+ 
+```text
+apple → 5
+```
+ 
+If key **doesn't exist** → new entry is inserted:
+ 
+```java
+map.putIfAbsent("orange", 20);
+```
+ 
+```text
+orange → 20
+```
+ 
+### Common Uses
+ 
+* Memoization
+* Initialization
+ 
+
 # DSA Cheat Sheet
 
 ## Must Know
